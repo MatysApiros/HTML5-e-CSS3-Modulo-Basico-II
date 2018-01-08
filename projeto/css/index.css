@@ -68,6 +68,7 @@
     background-color: #999;
     color: #FFF;
     border-bottom: 5em solid #851944;
+    position: relative;
 }
 
 .blog small{
@@ -97,3 +98,104 @@ main {
     padding-bottom: 0;
     float: none;
 }
+
+.inicio-post{
+    color: #000;
+    background-color: #f0fffc;
+    position: absolute;
+    top: 3em;
+    right: 3em;
+    height: 6em;
+    padding: 1em;
+}
+
+.eficiencia {
+    position: absolute;
+    top: 15%;
+    left: 75%;
+    color: #D5447E;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.boas-praticas{
+    position: absolute;
+    top: 3%;
+    right: 65%;
+    color: #D5447E;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.codigo-limpo{
+    position: absolute;
+    top: 20%;
+    right: 25%;
+    color: #D5447E;
+    font-family: 'Shadows Into Light', cursive;
+}
+.css3{
+    position: absolute;
+    top: 20%;
+    right: 63%;
+    color: #D5447E;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.html5{
+    position: absolute;
+    top: 20%;
+    right: 75%;
+    color: #D5447E;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.javascript{
+    position: absolute;
+    top: 38%;
+    right: 65%;
+    color: #D5447E;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.acessibilidade{
+    position: absolute;
+    top: 27%;
+    left: 70%;
+    color: #D5447E;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.responsivo{
+    position: absolute;
+    top: 30%;
+    right: 70%;
+    color: #D5447E;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.otimizacoes{
+    position: absolute;
+    top: 12%;
+    right: 70%;
+    color: #D5447E;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.agilidade{
+    position: absolute;
+    top: 5%;
+    left: 65%;
+    color: #D5447E;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.design{
+    position: absolute;
+    top: 33%;
+    left: 65%;
+    color: #D5447E;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+/* header {
+    position: relative;
+} */
