@@ -235,6 +235,22 @@ main {
     width: 30%;
 }
 
+#link-twitter{
+    position: absolute;
+    background-color: #3C1D3D;
+    border: .1em solid #000;
+    right: -8%;
+    top: -6%;
+    width:15em;
+    font-size: 0.5em;
+    transform-origin: 0 0;
+    transform: rotate(30deg);
+    color: inherit;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
 /* header {
     position: relative;
 } */
