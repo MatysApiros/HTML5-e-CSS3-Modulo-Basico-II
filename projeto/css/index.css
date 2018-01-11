@@ -112,100 +112,81 @@ main {
     padding: 1em;
 }
 
-.eficiencia {
+.palavra-home {
     position: absolute;
-    top: 15%;
-    left: 75%;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
     color: #D5447E;
-    font-family: 'Shadows Into Light', cursive;
-    transform: rotate(20deg);
+}
+
+.eficiencia {
+    top: 70%;
+    right: 60%;
+    transform: translate(-50%, -50%) rotate(20deg) translateZ(4px);
 }
 
 .boas-praticas{
-    position: absolute;
     top: 3%;
-    right: 65%;
-    color: #D5447E;
-    font-family: 'Shadows Into Light', cursive;
-    transform: rotate(10deg);
+    right: 15%;
+    transform: rotate(10deg) translateZ(3px);
 }
 
 .codigo-limpo{
-    position: absolute;
     top: 20%;
-    right: 25%;
-    color: #D5447E;
-    font-family: 'Shadows Into Light', cursive;
-    transform: rotate(-10deg);
+    right: 20%;
+    transform: rotate(-10deg) translateZ(1px);
 
 }
 .css3{
-    position: absolute;
     top: 20%;
-    right: 63%;
-    color: #D5447E;
-    font-family: 'Shadows Into Light', cursive;
-    transform: rotate(-20deg);
+    left: 10%;
+    transform: rotate(-20deg) translateZ(2px);
 }
 
 .html5{
-    position: absolute;
     top: 20%;
-    right: 75%;
-    color: #D5447E;
-    font-family: 'Shadows Into Light', cursive;
-    transform: rotate(15deg);
+    left: 15%;
+    transform: rotate(15deg)translateZ(5px);
 }
 
 .javascript{
-    position: absolute;
     top: 36%;
-    right: 70%;
-    color: #D5447E;
-    font-family: 'Shadows Into Light', cursive;
-    transform: rotate(10deg);
+    left: 20%;
+    transform: rotate(10deg) translateZ(3px);
 }
 
 .acessibilidade{
-    position: absolute;
     top: 27%;
-    left: 70%;
-    color: #D5447E;
-    font-family: 'Shadows Into Light', cursive;
-    transform: rotate(-10deg);
+    left: 10%;
+    transform: rotate(-10deg) translateZ(2px);
 }
 
 .responsivo{
-    position: absolute;
     top: 30%;
-    right: 65%;
-    color: #D5447E;
-    font-family: 'Shadows Into Light', cursive;
-    transform: rotate(-5deg);
+    right: 5%;
+    transform: rotate(-5deg) translateZ(1px);
 }
 
 .otimizacoes{
-    position: absolute;
-    top: 12%;
-    right: 70%;
-    color: #D5447E;
-    font-family: 'Shadows Into Light', cursive;
+    top: 15%;
+    right: 10%;
+    transform: rotate(-5deg) translateZ(4px);
 }
 
 .agilidade{
-    position: absolute;
-    top: 5%;
-    left: 65%;
-    color: #D5447E;
-    font-family: 'Shadows Into Light', cursive;
+    top: 7%;
+    left: 7%;
+    transform: rotate(-5deg) translateZ(2px);
 }
 
 .design{
-    position: absolute;
-    top: 35%;
-    left: 65%;
-    color: #D5447E;
-    font-family: 'Shadows Into Light', cursive;
+    top: 40%;
+    right: 12%;
+    transform: rotate(-5deg)translateZ(3px);
+}
+
+header {
+    position: relative;
 }
 
 .blog .inicio-post{
@@ -240,7 +221,7 @@ main {
     background-color: #3C1D3D;
     border: .1em solid #000;
     right: -8%;
-    top: -6%;
+    top: -12%;
     width:15em;
     font-size: 0.5em;
     transform-origin: 0 0;
@@ -251,6 +232,14 @@ main {
     font-family: "Open Sans Condensed", sans-serif;
 }
 
-/* header {
-    position: relative;
-} */
+.palavras-home {
+    position: absolute;
+    perspective: 6px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    color: #D5447E;
+}
